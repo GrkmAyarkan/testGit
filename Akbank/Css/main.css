@@ -1,350 +1,465 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-    color: black;
+
+a {
+  text-decoration: none;
+  color: black;
 }
-html{
-    font-family: "Open sans", "sans-serif" ;
+
+html {
+  font-family: "Open sans", "sans-serif";
 }
-.white-bar{
-    display: flex;
-    background-color: rgb(244, 244, 244);
-    height: 39px;
+
+.white-bar {
+  display: flex;
+  background-color: rgb(244, 244, 244);
+  height: 39px;
 }
-.white-bar-in{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 940px;
-    margin: 0 auto;
-    font-size: small;
+
+.white-bar-in {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 940px;
+  margin: 0 auto;
+  font-size: small;
 }
-.yat-iliskileri{
-    margin: 10px;
+
+.yat-iliskileri {
+  margin: 10px;
 }
-.urun-hizmet{
-    margin: 10px;
+
+.urun-hizmet {
+  margin: 10px;
 }
-.lang{
-    margin: 10px;
+
+.lang {
+  margin: 10px;
 }
-.red-bar{
-    display: flex;
-    background-color: rgb(238, 49, 36);
-    height: 39px;
+
+.red-bar {
+  display: flex;
+  background-color: rgb(238, 49, 36);
+  height: 39px;
 }
-.red-bar-in{
-    display: flex;
-    align-items: center;
-    width: 940px;
-    margin: 0 auto;
+
+.red-bar-in {
+  display: flex;
+  align-items: center;
+  width: 940px;
+  margin: 0 auto;
 }
-.logo{
-    font-size: x-large;
-    color: rgb(255, 255, 255);
-    margin: 10px;
-    font-weight: bold;
+
+.logo {
+  font-size: x-large;
+  color: rgb(255, 255, 255);
+  margin: 10px;
+  font-weight: bold;
 }
-.logo a{
-    color: white;
+
+.logo a {
+  color: white;
 }
-.grey-bar{
-    display: flex;
-    background-color: rgb(68, 68, 68);
-    height: 39px;
+
+.grey-bar {
+  display: flex;
+  background-color: rgb(68, 68, 68);
+  height: 39px;
 }
-.grey-bar-in{
-    display: flex;
-    align-items: center;
-    width: 940px;
-    margin: 0 auto;
-    font-size: medium;
+
+.grey-bar-in {
+  display: flex;
+  align-items: center;
+  width: 940px;
+  margin: 0 auto;
+  font-size: medium;
 }
-.kendim-icin{
-    margin: 10px;
-    color: rgb(255, 255, 255);
+
+.kendim-icin {
+  margin: 10px;
+  color: rgb(255, 255, 255);
 }
-.kendim-icin a{
-    color: rgb(255, 255, 255);
+
+.kendim-icin a {
+  color: rgb(255, 255, 255);
 }
-.isim-icin{
-    margin: 10px;
-    color: rgb(255, 255, 255);
+
+.isim-icin {
+  margin: 10px;
+  color: rgb(255, 255, 255);
 }
-.isim-icin a{
-    color: rgb(255, 255, 255);
+
+.isim-icin a {
+  color: rgb(255, 255, 255);
 }
-.search-menu{
-    display: flex;
-    height: 196px;
-    border-bottom-width: 1px;
-    border-bottom-style: solid;
-    border-bottom-color: rgb(195, 195, 195);
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
+
+.search-menu {
+  display: flex;
+  height: 196px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(195, 195, 195);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 1px 0px;
 }
-.search-bar{
-    background-color: white;
-    display: flex;
-    width: 940px;
-    margin: 0 auto;
-    font-size: medium;
-    flex-direction: column;
-    justify-content: space-around;
+
+.search-bar {
+  background-color: white;
+  display: flex;
+  width: 940px;
+  margin: 0 auto;
+  font-size: medium;
+  flex-direction: column;
+  justify-content: space-around;
 }
-h4{
-    font-weight: 400;
+
+h4 {
+  font-weight: 400;
 }
-h2{
-    font-weight: 600;
+
+h2 {
+  font-weight: 600;
 }
-.search{
-    display: flex;
+
+.search {
+  display: flex;
 }
-.search-text input{
-    background-attachment: scroll;
-    background-clip: border-box;
-    background-color: rgb(255, 255, 255);
-    border-color: rgb(238, 49, 36);
-    box-shadow: none;
-    box-sizing: border-box;
-    color: rgb(33, 33, 33);
-    cursor: text;
-    font-size: 18px;
-    height: 46px;
-    width: 580px;
-    font-weight: 400;
-    padding-left: 0px;
-    padding-right: 0px;
+
+.search-text input {
+  background-attachment: scroll;
+  background-clip: border-box;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(238, 49, 36);
+  box-shadow: none;
+  box-sizing: border-box;
+  color: rgb(33, 33, 33);
+  cursor: text;
+  font-size: 18px;
+  height: 46px;
+  width: 580px;
+  font-weight: 400;
+  padding-left: 0px;
+  padding-right: 0px;
 }
-.ara-button{
-    height: 46px;
-    width: 70px;
-    background-color: rgb(238, 49, 36);
-    text-align: center;
+
+.ara-button {
+  height: 46px;
+  width: 70px;
+  background-color: rgb(238, 49, 36);
+  text-align: center;
 }
+
 .ara-button a {
-    font-size: 19px;
-    color: white;
-    display: block;
-    cursor: pointer;
-    line-height: 46px;
-    text-align: center;
-    position: relative;
-    display: block;
-    text-size-adjust: 100%;
-    
-}
-.nav-bar{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    text-align-last: center;
-}
-.nav1{
-    margin: 10px;
-}
-.nav2{
-    margin: 10px;
-}
-.nav3{
-    margin: 10px;
-}
-.nav4{
-    margin: 10px;
-}
-.nav5{
-    margin: 10px;
-}
-.nav6{
-    margin: 10px;
-}
-.nav7{
-    margin: 10px;
-}
-.nav8{
-    margin: 10px;
-}
-.nav9{
-    margin: 10px;
+  font-size: 19px;
+  color: white;
+  display: block;
+  cursor: pointer;
+  line-height: 46px;
+  text-align: center;
+  position: relative;
+  display: block;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+          text-size-adjust: 100%;
 }
 
-.full-page{
-    background-color: rgb(244, 244, 244);
-    padding-top: 20px;
-    padding-bottom: 20px;
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  -moz-text-align-last: center;
+       text-align-last: center;
 }
-.page-block-1{
-    width: 940px;
-    height: 355px;
-    margin: 0 auto;
-    margin-bottom: 25px;
-}
-.block-1-red{
-    width: 940px;
-    height: 295px;
-    display: flex;
-    justify-content: center;
-    background-image: url(https://www.akbank.com/tr-tr/kampanyalar/PublishingImages/04-EmekliIletisimi-Nisan_AkbankCom_940x295.png);
-}
-.block-1-nav{
-    width: 940px;
-    height: 60px;
-    display: flex;
-}
-.column-1{
-    width: 470px;
-    height: 295px;
-    padding: 48px;
-}
-.column-2{
-    flex-grow: 1;
-}
-.block-1-text{
-    width: 374px;
-    height: 175px;
-    font-size: x-large;
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-}
-.block-1-button{
-    background-color: rgb(242, 242, 242);
-    width: 135px;
-    height: 40px;
-    font-size: 19px;
-    color: black;
-    display: block;
-    cursor: pointer;
-    line-height: 38px;
-    text-align: center;
-    position: relative;
-    display: block;
-    border-radius: 3px;
-}
-.block-1-navbutton{
-    height: 60px;
-    width: 118px;
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(217, 217, 217);
-    background-color: rgb(244, 244, 244);
 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-    text-align-last: center;
+.nav1 {
+  margin: 10px;
 }
-.page-block-2{
-    width: 940px;
-    height: 205px;
-    margin: 0 auto;
-    background-color: white;
-    margin-bottom: 15px;
-    
-    border: 1px;
-    border-style: solid;
-    border-color: rgb(217, 217, 217);
+
+.nav2 {
+  margin: 10px;
 }
-.yatirimci-ozet{
-    width: 930px;
-    height: 30px;
-    padding-left: 12px;
-    padding-right: 12px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    background-color: rgb(255, 255, 255);
-    font-size: small;
-    font-weight: bold;
+
+.nav3 {
+  margin: 10px;
 }
-.doviz-block{
-    display: flex;
-    background-color: rgb(255, 255, 255);
+
+.nav4 {
+  margin: 10px;
 }
-.bist100{
-    width: 188px;
-    padding-left: 10px;
-    padding-top: 6px;
-    padding-bottom: 50px;
+
+.nav5 {
+  margin: 10px;
 }
-.usd{
-    width: 188px;
-    padding-left: 10px;
-    padding-top: 6px;
+
+.nav6 {
+  margin: 10px;
 }
-.eur{
-    width: 188px;
-    padding-left: 10px;
-    padding-top: 6px;
+
+.nav7 {
+  margin: 10px;
 }
-.altin{
-    width: 188px;
-    padding-left: 10px;
-    padding-top: 6px;
+
+.nav8 {
+  margin: 10px;
 }
-.eur-usd{
-    width: 188px;
-    padding-left: 10px;
-    padding-top: 6px;
+
+.nav9 {
+  margin: 10px;
 }
-.stick{
-    width: 930px;
-    height: 1px;
-    background-color: rgb(195, 195, 195);
-    margin: 0 auto;
+
+.full-page {
+  background-color: rgb(244, 244, 244);
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.usd-alis{
-    display: flex;
+
+.page-block-1 {
+  width: 940px;
+  height: 355px;
+  margin: 0 auto;
+  margin-bottom: 25px;
 }
-.usd-satis{
-    display: flex;
+
+.block-1-red {
+  width: 940px;
+  height: 295px;
+  display: flex;
+  justify-content: center;
+  background-image: url(https://www.akbank.com/tr-tr/kampanyalar/PublishingImages/04-EmekliIletisimi-Nisan_AkbankCom_940x295.png);
 }
-.eur-alis{
-    display: flex;
+
+.block-1-nav {
+  width: 940px;
+  height: 60px;
+  display: flex;
 }
-.eur-satis{
-    display: flex;
+
+.column-1 {
+  width: 470px;
+  height: 295px;
+  padding: 48px;
 }
-.altin-alis{
-    display: flex;
+
+.column-2 {
+  flex-grow: 1;
 }
-.altin-satis{
-    display: flex;
+
+.block-1-text {
+  width: 374px;
+  height: 175px;
+  font-size: x-large;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
 }
-.eur-usd-alis{
-    display: flex;
+
+.block-1-button {
+  background-color: rgb(242, 242, 242);
+  width: 135px;
+  height: 40px;
+  font-size: 19px;
+  color: black;
+  display: block;
+  cursor: pointer;
+  line-height: 38px;
+  text-align: center;
+  position: relative;
+  display: block;
+  border-radius: 3px;
 }
-.eur-usd-satis{
-    display: flex;
+
+.block-1-navbutton {
+  height: 60px;
+  width: 118px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+  background-color: rgb(244, 244, 244);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  -moz-text-align-last: center;
+       text-align-last: center;
 }
-.yatirimci-dipnot{
-    display: flex;
-    font-size: small;
+
+.page-block-2 {
+  width: 940px;
+  height: 205px;
+  margin: 0 auto;
+  background-color: white;
+  margin-bottom: 15px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
 }
-.guncelleme{
-    padding-left: 10px;
-    padding-top: 13px;
+
+.yatirimci-ozet {
+  width: 930px;
+  height: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  background-color: rgb(255, 255, 255);
+  font-size: small;
+  font-weight: bold;
 }
-.space{
-    flex-grow: 1;
+
+.doviz-block {
+  display: flex;
+  background-color: rgb(255, 255, 255);
 }
-.hesapla{
-    padding-right: 15px;
-    padding-top: 13px;
+
+.bist100 {
+  width: 188px;
+  padding-left: 10px;
+  padding-top: 6px;
+  padding-bottom: 50px;
 }
-.al-sat{
-    padding-right: 15px;
-    padding-top: 13px;
+
+.usd {
+  width: 188px;
+  padding-left: 10px;
+  padding-top: 6px;
 }
-.tum-doviz{
-    padding-right: 15px;
-    padding-top: 13px;
+
+.eur {
+  width: 188px;
+  padding-left: 10px;
+  padding-top: 6px;
 }
-.akbank-yatirimci{
-    padding-right: 15px;
-    padding-top: 13px;
+
+.altin {
+  width: 188px;
+  padding-left: 10px;
+  padding-top: 6px;
 }
+
+.eur-usd {
+  width: 188px;
+  padding-left: 10px;
+  padding-top: 6px;
+}
+
+.stick {
+  width: 930px;
+  height: 1px;
+  background-color: rgb(195, 195, 195);
+  margin: 0 auto;
+}
+
+.usd-alis {
+  display: flex;
+}
+
+.usd-satis {
+  display: flex;
+}
+
+.eur-alis {
+  display: flex;
+}
+
+.eur-satis {
+  display: flex;
+}
+
+.altin-alis {
+  display: flex;
+}
+
+.altin-satis {
+  display: flex;
+}
+
+.eur-usd-alis {
+  display: flex;
+}
+
+.eur-usd-satis {
+  display: flex;
+}
+
+.yatirimci-dipnot {
+  display: flex;
+  font-size: small;
+}
+
+.guncelleme {
+  padding-left: 10px;
+  padding-top: 13px;
+}
+
+.space {
+  flex-grow: 1;
+}
+
+.hesapla {
+  padding-right: 15px;
+  padding-top: 13px;
+}
+
+.al-sat {
+  padding-right: 15px;
+  padding-top: 13px;
+}
+
+.tum-doviz {
+  padding-right: 15px;
+  padding-top: 13px;
+}
+
+.akbank-yatirimci {
+  padding-right: 15px;
+  padding-top: 13px;
+}
+
+/* scss */
+.page-block-3 {
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+.page-block-3 .axess {
+  width: 378px;
+  height: 313px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+}
+.page-block-3 .axess .picture {
+  width: 378px;
+  height: 200px;
+  background-image: url(https://www.akbank.com/tr-tr/kampanyalar/PublishingImages/2023/axess-main.png);
+  background-position-x: -400px;
+}
+.page-block-3 .axess .textt {
+  width: 378px;
+  height: 113px;
+  font-size: large;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.page-block-3 .axess .textt .text1 {
+  font-weight: bold;
+}
+.page-block-3 .axess .textt .text2 {
+  margin-top: 10px;
+}
+.page-block-3 .axess .textt a {
+  margin-top: 5px;
+  font-size: small;
+  text-decoration: underline;
+}
+.page-block-3 .kredi-hesaplama {
+  width: 540px;
+  height: 315px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+}/*# sourceMappingURL=main.css.map */
