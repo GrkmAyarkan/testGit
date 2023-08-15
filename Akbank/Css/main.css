@@ -776,4 +776,113 @@ h2 {
 }
 .page-block-6 .button-div .button a {
   color: white;
+}
+
+.page-block-7 {
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  height: 252px;
+}
+.page-block-7 .sutun-1 {
+  height: 250px;
+  width: 380px;
+}
+.page-block-7 .sutun-1 .duyurular {
+  width: 380px;
+  height: 117px;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+}
+.page-block-7 .sutun-1 .duyurular .baslik {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: larger;
+  height: 50px;
+  border-bottom: 1px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+  background-color: white;
+}
+.page-block-7 .sutun-1 .duyurular .block {
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: rgb(250, 250, 250);
+  font-size: small;
+}
+.page-block-7 .sutun-1 .duyurular .block a {
+  font-size: 10px;
+  margin-left: 300px;
+  margin-right: 10px;
+}
+.page-block-7 .sutun-1 .haberler {
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+  width: 380px;
+  height: 117px;
+  margin-top: 16px;
+}
+.page-block-7 .sutun-1 .haberler .baslik {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: larger;
+  height: 50px;
+  border-bottom: 1px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+  background-color: white;
+}
+.page-block-7 .sutun-1 .haberler .block {
+  padding-top: 10px;
+  padding-left: 10px;
+  background-color: rgb(250, 250, 250);
+  font-size: small;
+}
+.page-block-7 .sutun-1 .haberler .block a {
+  font-size: 10px;
+  margin-left: 300px;
+  margin-right: 10px;
+}
+.page-block-7 .sutun-2 {
+  height: 250px;
+  width: 538px;
+  background-color: white;
+  border: 1px;
+  border-style: solid;
+  border-color: rgb(217, 217, 217);
+  display: block;
+}
+.page-block-7 .sutun-2 .block {
+  width: 538px;
+  height: 200px;
+  background-image: url(https://www.akbank.com/SiteAssets/HowToVideo/img/banner/01.jpg);
+  background-size: 800px;
+  background-position-x: -300px;
+}
+.page-block-7 .sutun-2 .text {
+  width: 258px;
+  height: 86px;
+  background-color: white;
+  z-index: 3;
+  position: absolute;
+  display: block;
+  box-sizing: border-box;
+  margin-top: 150px;
+  margin-left: 18px;
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.page-block-7 .sutun-2 .text a {
+  font-size: small;
+  text-decoration: underline;
 }/*# sourceMappingURL=main.css.map */
