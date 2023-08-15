@@ -520,7 +520,7 @@ h2{
     @include page-block-duzen;
     height: 300px;
     @include kenar-golgeleri;
-    .block-1{
+    .baslik{
         width: 940;
         height: 50px;
         @include baslik;
@@ -529,7 +529,7 @@ h2{
         border-left: 0px;
         border-right: 0px;
     }
-    .block-2{
+    .block{
         height: 200px;
         padding-top: 40px;
         padding-left: 10px;
@@ -627,6 +627,49 @@ h2{
                 a{
                     color: white;
                 }
+            }
+        }
+    }
+}
+
+.page-block-6{
+    @include page-block-duzen;
+    height: 300px;
+    @include kenar-golgeleri;
+    .baslik{
+        width: 940;
+        height: 50px;
+        @include baslik;
+        @include kenar-golgeleri;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+    }
+    .block{
+        height: 200px;
+        padding-top: 70px;
+        padding-left: 10px;
+        background-image: url(https://www.akbank.com/tr-tr/urunler/PublishingImages/genclik-bankacilik-115-v2.png);
+        .alt-yazi{
+            margin-top: 25px;
+        }
+        font-size: 15px;
+        p{
+            color: white;
+        }
+    }
+    .button-div{
+        @include button-div;
+        @include kenar-golgeleri;
+        border-left: 0px;
+        border-right: 0px;
+        height: 50px;
+        .button{
+            @include button;
+            width: 130px;
+            background-color: rgb(247, 29, 22);
+            a{
+                color: white;
             }
         }
     }
