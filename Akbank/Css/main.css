@@ -885,4 +885,63 @@ h2 {
 .page-block-7 .sutun-2 .text a {
   font-size: small;
   text-decoration: underline;
+}
+
+.page-end {
+  background-image: url(https://www.akbank.com/SiteAssets/img/footer_bg.jpg);
+  background-color: aquamarine;
+}
+.page-end .block-1 {
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 550px;
+}
+.page-end .block-1 .table {
+  width: 750px;
+  margin: 0 auto;
+}
+.page-end .block-1 .table table, .page-end .block-1 .table th, .page-end .block-1 .table td {
+  text-align: left;
+  margin: 5px;
+}
+.page-end .block-1 .table a {
+  color: white;
+  font-size: 13px;
+}
+.page-end .block-2-background {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-top: 15px;
+}
+.page-end .block-2-background .block-2 {
+  width: 940px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  height: 150px;
+}
+.page-end .block-2-background .block-2 .hak-sosyalmedia {
+  color: rgb(196, 196, 196);
+  display: flex;
+}
+.page-end .block-2-background .block-2 .hak-sosyalmedia p {
+  font-size: small;
+}
+.page-end .block-2-background .block-2 .hak-sosyalmedia a {
+  margin-right: 5px;
+  color: white;
+}
+.page-end .block-2-background .block-2 .yasal-bilgi {
+  margin-top: 30px;
+  width: 600px;
+  height: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.page-end .block-2-background .block-2 .yasal-bilgi div {
+  margin-right: 20px;
+  height: 30px;
+}
+.page-end .block-2-background .block-2 .yasal-bilgi div a {
+  font-size: small;
+  color: white;
 }/*# sourceMappingURL=main.css.map */
